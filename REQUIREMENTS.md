@@ -7,6 +7,7 @@ Requirements for using the [Lightning Address](https://lightningaddress.com) pro
 
 ## Reserved keywords / user names
 * `index` holds an optional list of usernames for this domain
+* `info` is the default key for domain donations. If something is sent to info@domain.org, the key `/.well-known/lnurlp/info` is retrieved and payments are sent to the resulting lnurl-pay info.
 
 ## Sending app
 
